@@ -1,6 +1,9 @@
 def prime?(n)
   if n < 1
     false
-    if n > 3 && n % 3
+  elsif n > 3 && n % 3 == 0
+    false
+  else
+    true
 end
 end
