@@ -9,6 +9,8 @@ def prime?(n)
     puts false
   elsif n > 11 && n % 11 == 0
     puts false
+  elsif n < 0
+    puts false
   else
     puts true
   end
