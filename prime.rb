@@ -1,6 +1,6 @@
 def prime?(n)
 arr = (2..Math.sqrt(n).floor).to_a
-array.each { |x| n / x }
+arr.each { |x| n / x }
 if n < 2
   false
 elsif n > 3 && n % x ==0
