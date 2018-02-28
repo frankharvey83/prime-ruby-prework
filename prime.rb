@@ -4,4 +4,3 @@ arr.each do |x|
 if n % x == 0
   false
   end
-end
