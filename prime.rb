@@ -1,13 +1,11 @@
 def prime?(n)
-  arr = []
-  arr << 2..Math.sqrt(n)
-  arr.each do |num|
-  if n < 2
-    false
-  elsif n % num == 0
-    false
-  else
-    true
-  end
+arr = (2..Math.sqrt(n).floor).to_a
+array.each { |x| n / x }
+if n < 2
+  false
+elsif n > 3 && n % x ==0
+  false
+else
+  true
 end
 end
